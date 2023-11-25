@@ -3,8 +3,7 @@ import Edit from './edit';
 import Save from './save';
 import './style.scss';
 
-
-registerBlockType('feltino/myblock', {
-    edit: Edit,
-    save: Save,
-})
+registerBlockType( 'feltino/myblock', {
+	edit: Edit,
+	save: Save,
+} );

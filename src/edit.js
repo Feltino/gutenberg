@@ -1,8 +1,8 @@
-import {useBlockProps} from '@wordpress/block-editor';
+import { useBlockProps } from '@wordpress/block-editor';
 import './editor.scss';
 
-export default function edit(){
-    const blockProps = useBlockProps();
+export default function Edit() {
+	const blockProps = useBlockProps();
 
-    return <h1 {...blockProps}>Edit 1</h1>;
+	return <h1 { ...blockProps }>Edit 1</h1>;
 }
