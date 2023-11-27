@@ -1,19 +1,23 @@
 {
-    "apiVersion" : 2,
-    "name": "feltino/myblock",
-    "title": "My Block",
-    "description": "Gutenberg block", 
-    "category": "text",
-    "icon": "admin-post",
-    "textdomain": "myblock",
-    "editorScript": "file:./build/index.js",
-    "style": "file:./build/style-index.css",
-    "editorStyle": "file:./build/index.css",
+	"apiVersion": 2,
+	"name": "feltino/myblock",
+	"title": "My Block",
+	"description": "Gutenberg block",
+	"category": "text",
+	"icon": "admin-post",
+	"textdomain": "myblock",
+	"editorScript": "file:./build/index.js",
+	"style": "file:./build/style-index.css",
+	"editorStyle": "file:./build/index.css",
 	"attributes": {
-		"text":{
+		"text": {
 			"type": "string",
 			"source": "html",
 			"selector": "h1"
+		},
+		"align": {
+			"type": "string",
+			"default": "left"
 		}
 	}
 }

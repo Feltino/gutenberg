@@ -4,5 +4,14 @@
 .wp-block-feltino-myblock {
   color: #000;
 }
+.wp-block-feltino-myblock.feltino-align-left {
+  text-align: left;
+}
+.wp-block-feltino-myblock.feltino-align-center {
+  text-align: center;
+}
+.wp-block-feltino-myblock.feltino-align-right {
+  text-align: right;
+}
 
 /*# sourceMappingURL=style-index.css.map*/
